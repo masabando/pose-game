@@ -1,0 +1,19 @@
+@import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+html, body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#canvas {
+  transform: scaleX(-1);
+  width: 100%;
+}
+
+#video {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+}
